@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Minecraft;
+    src: url(fonts/Minecraft.ttf);
+}
+
+header{
+    background-color: rgb(255, 166, 0);
+    border-bottom: 0.1cm dashed rgb(128, 84, 3);
+}
+main{
+    text-align: center;
+}
+footer{
+    background-color: rgb(255, 166, 0);
+    border-top: 0.1cm dashed rgb(128, 84, 3);
+}
+.boton1{
+    border-radius: 20cm;
+    border-color: orange;
+}
+.enlaceshome{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.hyperlink1{
+    color: black;
+    font-family: Minecraft;
+    padding-left: 0.15cm;
+}
+.titulo1{
+    font-family: Minecraft;
+    font-size: 1cm;
+    font-weight: 100;
+    padding-top: 0.15cm;
+    padding-left: 0.15cm;
+    text-shadow: 5px 5px 5px;
+    text-align: center;
+}
+.texto1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.perfil-imagen {
+    border-radius: 150px;
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+    flex-shrink: 0;
+}
+
+
+.contenedorhistorias {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 30px;
+    flex-wrap: wrap;
+    row-gap: 100px;
+}
+
+
+.tarjetahistoria {
+    max-width: 450px; 
+    width: 100%;
+}
+
+.perfil-cabecera {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.info-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.perfil-nombre {
+    margin: 0;
+    font-family: sans-serif;
+}
+.perfil-descripcion {
+    margin: 0;
+    font-family: sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 12px;
+    line-height: 1.5;
+}
+.hyperlinkhome{
+    color: black;
+    text-decoration: none;
+}
+.clips{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    column-gap: 150px;
+    row-gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.autor-clip{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -15px;
+    font-family: sans-serif;
+}
+.video-clip{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -23px;
+}
+.nombre-clip{
+    font-family: sans-serif
+}
+.contenedortops{
+    font-family: sans-serif;
+    font-size: 17px;
+    position: relative;
+    top: 25px;
+    flex-wrap: wrap;
+}
+.titulotop{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.jugadores{
+    font-family: sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+    right: 13px;
+}
+.tops-titulo{
+    font-family: sans-serif;
+}
+.asd{
+    display: flex;
+    justify-content: center;
+}
